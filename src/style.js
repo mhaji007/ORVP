@@ -1,14 +1,14 @@
 export const styles = (theme) => ({
-  // cssOutlinedInput: {
-  //   '&$cssFocused $notchedOutline': {
-  //     borderColor: `${theme.palette.primary.main} !important`,
-  //   }
-  // },
+  cssOutlinedInput: {
+    "&$cssFocused $notchedOutline": {
+      borderColor: `${theme.palette.primary.main} !important`,
+    },
+  },
 
-  // cssFocused: {},
+  cssFocused: {},
 
-  // notchedOutline: {
-  //   borderWidth: '1px',
-  //   borderColor: 'green !important'
-  // },
+  notchedOutline: {
+    borderWidth: "1px",
+    borderColor: "green !important",
+  },
 });
